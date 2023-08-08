@@ -19,7 +19,7 @@ const HomePage = ({ products }) => {
         <div className="grid grid-cols-[repeat(auto-fit,minmax(150px,1fr))] gap-y-14 gap-x-4 ">
           {products.map((product) => {
             return (
-              <div key={product.title} className=" rounded-lg">
+              <div key={product.id} className=" rounded-lg">
                 <div className="bg-red-400 text-white rounded-t-lg text-center">
                   {product.title}
                 </div>
